@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    height: 100%vh;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+header {
+    background-color: black;
+    height: 120px;
+    margin-bottom: 3rem;
+}
+
+header h1{  
+    padding-top: 1rem;  
+    color: #ffffff;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+header p:hover{
+    text-decoration:underline;
+    outline-color: #ffffff;
+}
+
+header a{    
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.group-container p{
+    display: block;
+    margin: auto;
+    max-width: 350px;
+    height: 8rem;
+    text-align: justify;
+    text-indent: 10px;
+    padding-top: 3rem;
+    padding-bottom:3px;
+}
+
+
+.group-container-img{
+    position: relative;
+}
+
+.group-container-img p {
+    background-color: rgba(0, 0, 0, 0.596);
+    color: #ffffff;
+    position: absolute;
+    display: block;
+    max-width: 350px;    
+    text-align: justify;
+    text-indent: 10px;
+    padding: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#img1{
+    display: block;
+    background-image: url('../img/img-1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 15rem;
+}
+
+
+#img2{
+    display: block;
+    background-image: url('../img/img-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 15rem;
+}
+
+
+
+#img3{
+    display: block;
+    background-image: url('../img/img-3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 15rem;
+}
+
+
+footer p {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
